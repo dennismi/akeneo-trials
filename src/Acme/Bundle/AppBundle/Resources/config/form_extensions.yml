@@ -1,0 +1,6 @@
+extensions:
+    oro-system-config-tab-acme:
+        module: pim/configuration/tab
+        parent: oro-system-config-tabs
+        targetZone: container
+        position: 110

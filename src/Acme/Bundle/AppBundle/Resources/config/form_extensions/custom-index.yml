@@ -1,0 +1,5 @@
+extensions:
+    acme_custom_index:
+      module: pim/common/simple-view
+      config:
+          template: pim/template/common/default-template

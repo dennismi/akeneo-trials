@@ -1,0 +1,10 @@
+extensions:
+    pim-menu-custom:
+        module: pim/menu/tab
+        parent: pim-menu
+        position: 100
+        targetZone: mainMenu
+        config:
+            title: 'Custom'
+            iconModifier: iconCard
+            to: acme_custom_index

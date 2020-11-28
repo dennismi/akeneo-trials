@@ -1,0 +1,9 @@
+config:
+    paths:
+        acme/custom: acmeapp/js/controller/custom
+        pim/configuration/tab: acme/js/configuration/tab
+    config:
+        pim/controller-registry:
+            controllers:
+                acme_custom_index:
+                    module: acme/custom
